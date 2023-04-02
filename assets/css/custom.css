@@ -1,0 +1,49 @@
+
+.shape-2::after {
+    left: -20px;
+    bottom: 0;
+    width: 100%;
+    height: 450px;
+    background-size: contain;
+    background-image: url(../images/shape.svg);
+    opacity: 1;
+}
+
+@media(max-width: 1025px) {
+    .shape-2::after {
+        left: -20px;
+        bottom: 0;
+        width: 100%;
+        height: 350px;
+        background-size: contain;
+        background-image: url(../images/shape.svg);
+        opacity: 1;
+    }
+ }
+.bg-darker {
+    background-color: #312ECC !important;
+}
+
+.text-primary {
+    color: #312ECC !important;
+}
+
+
+.text-bg-dark {
+    color: #fff !important;
+    background-color: #312ECC !important;
+}
+
+.logo-img {
+    height: 45px;
+}
+
+.title-shape-2::after {
+    display: none !important;
+}
+
+.text-bg-primary-soft {
+    color: #2800ca !important;
+    background-color: #ece8f9 !important;
+    border-color: transparent;
+}
